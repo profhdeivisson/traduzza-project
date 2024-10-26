@@ -1,0 +1,91 @@
+.login-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .logo-container {
+        padding-bottom: 80px;
+    }
+
+    .login-form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: .5rem;
+
+        label{
+            font-size: .8rem;
+            font-weight: 200;
+        }
+        .box-email, .box-password {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            column-gap: .5rem;
+            input{
+                border: none;
+                background-color: #F7F7F7;
+                line-height: 1.2rem;
+                width: 10rem;
+            }
+        }
+        button{
+            background: #000000;
+            font-style: normal;
+            font-weight: 400;
+            font-size: .8rem;
+            padding: .2rem;
+            width: 10rem;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+    }
+    .signup-link{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+        row-gap: .5rem;
+
+        p{
+            font-size: .7rem;
+            font-weight: 200;
+        }
+
+        a{
+            background-color: #414141;
+            color: #FFFFFF;
+            font-size: .8rem;
+            text-decoration: none;
+            padding: .5rem 1rem;
+        }
+    }
+    .google-login{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        row-gap: .5rem;
+        
+        p{
+            font-size: .7rem;
+            color: #B5B5B5;
+        }
+
+        div{
+            display: flex;
+            align-items: center;
+            column-gap: .5rem;
+            font-size: .8rem;
+            font-weight: 200;
+            img{
+                cursor: pointer;
+            }
+        }
+    }
+}
